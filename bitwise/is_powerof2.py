@@ -1,3 +1,5 @@
+
+#method1
 def is_powerof2(n):#O(n)
     if n>2:
         return True and is_powerof2(n/2)
@@ -8,7 +10,7 @@ def is_powerof2(n):#O(n)
 print(is_powerof2(1))
 
 
-
+#method2
 def ispower2(n):#O(1)
     if (n&(n-1))==0:
         print("Yes")
