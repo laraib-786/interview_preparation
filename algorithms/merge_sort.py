@@ -1,3 +1,7 @@
+"""Here we apply divide and conquer theorem so the smaller one is when array has only one element,
+ well in that case we don't need to sort the array because it is already sorted"""
+ ## T(n)=2T(n/2)+n O(n)=nlogn
+
 arr=[19,23,43,89,12,3,4,4,5,6,7,8,9,2,3,4,12,23,34,45,34,35]
 
 def merging(l,mid,n):
